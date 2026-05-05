@@ -1,0 +1,6 @@
+@IWS.OperationsApi_HostAddress = http://localhost:5198
+
+GET {{IWS.OperationsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

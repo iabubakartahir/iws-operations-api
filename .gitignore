@@ -1,0 +1,29 @@
+# .NET build outputs
+bin/
+obj/
+out/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local SQLite database (generated at runtime)
+*.db
+*.db-shm
+*.db-wal
+
+# Environment / secrets
+appsettings.Development.json
+.env
+*.pfx
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
